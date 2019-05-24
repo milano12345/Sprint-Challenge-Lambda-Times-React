@@ -17,6 +17,10 @@ const Tabs = props => {
 // Make sure to use PropTypes to validate your types!
 export default Tabs;
 
-tabs.propTypes ={
-  
-}
+tabs.propTypes.array(
+  PropTypes.shape({
+  healine: PropTypes.string.isRequired,
+  tab: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired
+}));

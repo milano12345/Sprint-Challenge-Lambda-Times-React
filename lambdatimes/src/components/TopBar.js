@@ -1,11 +1,14 @@
 import React from 'react';
-
+import styled from 'styled-components';
 // Refactor this component to use styled components and not classNames. 
 // You can find the corresponding CSS in the CSS/index.css file
+const topbar=styled.div`
+
 
 const TopBar = () => {
   return (
     <div className="top-bar">
+      const top-bar="styled.div"
       <div className="container">
         <div className="container-left">
           <span>TOPICS</span><span>SEARCH</span>
